@@ -144,6 +144,8 @@ hr.small {
     margin: 5px 5px 0 0;
 }
 
+
+
 /* Header */
 .header {
     display: table;
@@ -170,7 +172,24 @@ hr.small {
 
 .automation-item {
     margin-bottom: 30px;
+}
+.automation-list{
+	margin:0;
+	padding:0;
+}
 
+#menu ul{
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+text-align:left;
+}
+
+#menu li{
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+text-align:left;
 }
 
 /* Projects */
@@ -190,8 +209,8 @@ hr.small {
     opacity: 0.8;
 }
 
-/* CV */
-.cv {
+/* Resume */
+.resume {
     display: table;
     width: 100%;
     height: 400px;
@@ -203,22 +222,18 @@ hr.small {
     -o-background-size: cover;
 }
 
-.cv-item{
+.resume-item{
 	padding: 100px 0;
-	font-size: 1.5em;
+	font-size: 1em;
 	
 }
 
-.cv-item:hover{
+.resume-item:hover{
 	opacity: 0.8;
 }
 
-.cv-header{
-	font-size: 4.5em;
-    font-weight: 700;
-}
-.cv-down{
-	font-size: 1.5em;
+.download-text {
+	margin-top: .3em;
 }
 
 /* Footer */
